@@ -59,17 +59,4 @@ int main()
 			while(getchar() != '\n');
 		}
 	}	
-	
-	
-/*
-	int file;
-	char data[100];
-	file = open("/dev/simple_char_device", O_RDWR);
-	write(file, "Hello, World!asdfassasdfasfsdfsdasfasfassdfdasdasddfasdfffasdfsmash64", 100);
-	//write(file, "test", 10);
-	//lseek(file, 10, SEEK_SET);
-	read(file, data, 90); 
-	printf("%s\n", data);
-	close("/dev/simple_char_device");
-	return 0;*/
 }
